@@ -1,0 +1,10 @@
+# OneThinker Evaluation Benchmarks (7 sub-tasks)
+# One dataset JSON filename per line, located under $DATA_ONETHINKER_ROOT.
+# Read by run_onethinker.sh and dispatched to eval_bench.py.
+eval_mmvu.json
+eval_videomathqa.json
+eval_videommmu.json
+eval_longvideoreason.json
+eval_charades.json
+eval_activitynet.json
+eval_anet_rtl.json

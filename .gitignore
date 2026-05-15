@@ -1,0 +1,17 @@
+# results / logs (top-level + Evaluation/)
+_results/
+_logs/
+**/_results/
+**/_logs/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store

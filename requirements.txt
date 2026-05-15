@@ -1,0 +1,34 @@
+# Exact versions used to obtain the numbers reported in the paper.
+# (Qwen3-VL needs transformers >= 4.55 and vLLM >= 0.10).
+
+# ---- core inference stack -------------------------------------------------
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+transformers==4.57.0
+accelerate==1.13.0
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface-hub==0.36.2
+
+# ---- vLLM + Qwen3-VL helpers ---------------------------------------------
+vllm==0.11.0
+qwen-vl-utils==0.0.14
+xformers==0.0.32.post1
+flash-attn==2.7.3
+triton==3.4.0
+
+# ---- video decoding -------------------------------------------------------
+decord==0.6.0
+av==16.1.0
+
+# ---- evaluation metrics (used by eval_bench.py for OneThinker tasks) ------
+rouge-score==0.1.2
+math-verify==0.9.0
+
+# ---- misc -----------------------------------------------------------------
+numpy==2.2.6
+pillow==12.1.1
+tqdm==4.67.3
+einops==0.8.2
+sentencepiece==0.2.1
